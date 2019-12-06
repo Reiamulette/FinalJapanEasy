@@ -145,26 +145,26 @@
   },
   {
     "question": "How is あ written in romanji?",
-    "choice1":"a",
-    "choice2":"o",
-    "choice3":"nu",
-    "choice4":"me",
+    "choice1":"A",
+    "choice2":"O",
+    "choice3":"NU",
+    "choice4":"ME",
     "answer":1
   },
   {
     "question": "How is あ written in romanji?",
-    "choice1":"i",
-    "choice2":"u",
-    "choice3":"a",
-    "choice4":"e",
+    "choice1":"I",
+    "choice2":"U",
+    "choice3":"A",
+    "choice4":"E",
     "answer":3
   },
   {
     "question": "How is あ written in romanji?",
-    "choice1":"n",
-    "choice2":"a",
-    "choice3":"i",
-    "choice4":"e",
+    "choice1":"N",
+    "choice2":"A",
+    "choice3":"I",
+    "choice4":"E",
     "answer": 2
   },
   {
@@ -312,7 +312,7 @@
     "answer":2
   },
   {
-    "question": "Hiragana i is?",
+    "question": "Hiragana I is?",
     "choice1":"に",
     "choice2":"や",
     "choice3":"い",
@@ -320,7 +320,7 @@
     "answer":3
   },
   {
-    "question": "Hiragana i is?",
+    "question": "Hiragana I is?",
     "choice1":"い",
     "choice2":"て",
     "choice3":"き",
@@ -328,7 +328,7 @@
     "answer":1
   },
   {
-    "question": "Katakana i is?",
+    "question": "Katakana I is?",
     "choice1":"ノ",
     "choice2":"イ",
     "choice3":"キ",
