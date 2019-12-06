@@ -1,292 +1,442 @@
-{
-	"games":[
-		{
-			"code":"1",
-			"name":"あ",
-			"description":"Hiragana Quizzes",
-      		"color":"#feec1c",
-			"quizzes":[
-				{
-					"code":"1",
-					"description":"ma is",
-					"options":[
-						{
-							"code":"1",
-							"description":"ら"
-						},
-						{
-							"code":"2",
-							"description":"は"
-						},
-						{
-							"code":"3",
-							"description":"ま"
-						},
-						{
-							"code":"4",
-							"description":"あ"
-						}
-					],
-					"quiz_option_code":"3",
-					"quiz_answer":"ま　is ma!"
-				},
-				{
-					"code":"2",
-					"description":"ば is",
-					"options":[
-						{
-							"code":"1",
-							"description":"ke"
-						},
-						{
-							"code":"2",
-							"description":"ka"
-						},
-						{
-							"code":"3",
-							"description":"he"
-						},
-						{
-							"code":"4",
-							"description":"ba"
-						}
-					],
-					"quiz_option_code":"4",
-					"quiz_answer":"ば is ba!"
-				},
-				{
-					"code":"3",
-					"description":"ku is",
-					"options":[
-						{
-							"code":"1",
-							"description":"く"
-						},
-						{
-							"code":"2",
-							"description":"そ"
-						},
-						{
-							"code":"3",
-							"description":"へ"
-						},
-						{
-							"code":"4",
-							"description":"ん"
-						}
-					],
-					"quiz_option_code":"1",
-					"quiz_answer":"ku is く!"
-				},
-				{
-					"code":"4",
-					"description":"よ is",
-					"options":[
-						{
-							"code":"1",
-							"description":"ho"
-						},
-						{
-							"code":"2",
-							"description":"yo"
-						},
-						{
-							"code":"3",
-							"description":"ya"
-						},
-						{
-							"code":"4",
-							"description":"ha"
-						}
-					],
-					"quiz_option_code":"2",
-					"quiz_answer":"よ is yo!"
-				},
-				{
-					"code":"5",
-					"description":"pa is",
-					"options":[
-						{
-							"code":"1",
-							"description":"は"
-						},
-						{
-							"code":"2",
-							"description":"ば"
-						},
-						{
-							"code":"3",
-							"description":"ぱ"
-						},
-						{
-							"code":"4",
-							"description":"ひ"
-						}
-					],
-					"quiz_option_code":"3",
-					"quiz_answer":"pa is ぱ!"
-				}
-			]
-		},
-		{
-			"code":"2",
-			"name":"ア",
-			"description":"Katanakana Quizzes",
-      		"color":"#1bd0fd",
-			"quizzes":[
-				{
-					"code":"1",
-					"description":"so is",
-					"options":[
-						{
-							"code":"1",
-							"description":"ソ"
-						},
-						{
-							"code":"2",
-							"description":"ン"
-						},
-						{
-							"code":"3",
-							"description":"ツ"
-						},
-						{
-							"code":"4",
-							"description":"シ"
-						}
-					],
-					"quiz_option_code":"1",
-					"quiz_answer":"so is ソ"
-				},
-				{
-					"code":"2",
-					"description":"ナ is",
-					"options":[
-						{
-							"code":"1",
-							"description":"ta"
-						},
-						{
-							"code":"2",
-							"description":"na"
-						},
-						{
-							"code":"3",
-							"description":"ne"
-						},
-						{
-							"code":"4",
-							"description":"te"
-						}
-					],
-					"quiz_option_code":"2",
-					"quiz_answer":"ナ is na!"
-				},
-				{
-					"code":"3",
-					"description":"fu is",
-					"options":[
-						{
-							"code":"1",
-							"description":"フ"
-						},
-						{
-							"code":"2",
-							"description":"ナ"
-						},
-						{
-							"code":"3",
-							"description":"ム"
-						},
-						{
-							"code":"4",
-							"description":"タ"
-						}
-					],
-					"quiz_option_code":"1",
-					"quiz_answer":"fu is フ"
-				}
-			]
-		},
-		{
-			"code":"3",
-			"name":"字",
-			"description":"Kanji Quizzes",
-      		"color":"#ff98d5",
-			"quizzes":[
-				{
-					"code":"1",
-					"description":"Which means 'fire'?",
-					"options":[
-						{
-							"code":"1",
-							"description":"水"
-						},
-						{
-							"code":"2",
-							"description":"火"
-						},
-						{
-							"code":"3",
-							"description":"木"
-						},
-						{
-							"code":"4",
-							"description":"月"
-						}
-					],
-					"quiz_option_code":"2",
-					"quiz_answer":"火 is fire (also used for tuesday)!"
-				},
-				{
-					"code":"2",
-					"description":"Right is",
-					"options":[
-						{
-							"code":"1",
-							"description":"上"
-						},
-						{
-							"code":"2",
-							"description":"下"
-						},
-						{
-							"code":"3",
-							"description":"右"
-						},
-						{
-							"code":"4",
-							"description":"左"
-						}
-					],
-					"quiz_option_code":"3",
-					"quiz_answer":"Right is 右!"
-				},
-				{
-					"code":"3",
-					"description":"Which 'shi' is a number?",
-					"options":[
-						{
-							"code":"1",
-							"description":"四"
-						},
-						{
-							"code":"2",
-							"description":"市"
-						},
-						{
-							"code":"3",
-							"description":"死"
-						},
-						{
-							"code":"4",
-							"description":"子"
-						}
-					],
-					"quiz_option_code":"1",
-					"quiz_answer":"四 is the number four!"
-				}
-			]
-		}
-	]
-}
+[
+  {
+    "question": "Which symbol is I?",
+    "choice1":"こ",
+    "choice2":"い",
+    "choice3":"そ",
+    "choice4":"え",
+    "answer": 2
+  },
+  {
+    "question": "Which symbol is KU?",
+    "choice1":"く",
+    "choice2":"べ",
+    "choice3":"へ",
+    "choice4":"ん",
+    "answer":1
+  },
+  {
+    "question": "Which symbol does NOT begin with a R sound?",
+    "choice1":"ら",
+    "choice2":"り",
+    "choice3":"わ",
+    "choice4":"れ",
+    "answer":3
+  },
+  {
+    "question": "Which symbol is not part of the A row?",
+    "choice1":"あ",
+    "choice2":"え",
+    "choice3":"め",
+    "choice4":"お",
+    "answer":3
+  },
+  {
+    "question": "Which symbol does NOT begin with a K sound?",
+    "choice1":"か",
+    "choice2":"く",
+    "choice3":"こ",
+    "choice4":"ぐ",
+    "answer":4
+  },
+  {
+    "question": "Which symbols are all part of the hiragana K row?",
+    "choice1":"か,き,く,け,こ",
+    "choice2":"が,ぎ,ぐ,げ,ご",
+    "choice3":"さ,し,す,せ,そ",
+    "choice4":"ざ,じ,ず,ぜ,ぞ",
+    "answer":1
+  },
+  {
+    "question": "Which symbols are all part of the hiragana H row?",
+    "choice1":"は,ひ,ふ,へ,ほ",
+    "choice2":"ば,び,ぶ,べ,ぼ",
+    "choice3":"あ,い,う,え,お",
+    "choice4":"ぱ,ぴ,ぷ,ぺ,ぽ",
+    "answer":1
+  },
+  {
+    "question": "Which symbols are all part of the hiragana B row?",
+    "choice1":"は,ひ,ふ,へ,ほ",
+    "choice2":"ば,び,ぶ,べ,ぼ",
+    "choice3":"あ,い,う,え,お",
+    "choice4":"ぱ,ぴ,ぷ,ぺ,ぽ",
+    "answer":2
+  },
+  {
+    "question": "Which symbols are all part of the hiragana P row?",
+    "choice1":"は,ひ,ふ,へ,ほ",
+    "choice2":"ば,び,ぶ,べ,ぼ",
+    "choice3":"あ,い,う,え,お",
+    "choice4":"ぱ,ぴ,ぷ,ぺ,ぽ",
+    "answer":4
+  },
+  {
+    "question": "Which symbols are all part of the hiragana A row?",
+    "choice1":"は,ひ,ふ,へ,ほ",
+    "choice2":"ば,び,ぶ,べ,ぼ",
+    "choice3":"あ,い,う,え,お",
+    "choice4":"ぱ,ぴ,ぷ,ぺ,ぽ",
+    "answer":3
+  },
+  {
+    "question": "Which symbols are all part of the hiragana G row?",
+    "choice1":"か,き,く,け,こ",
+    "choice2":"が,ぎ,ぐ,げ,ご",
+    "choice3":"さ,し,す,せ,そ",
+    "choice4":"ざ,じ,ず,ぜ,ぞ",
+    "answer":2
+  },
+  {
+    "question": "Which symbols are all part of the hiragana S row?",
+    "choice1":"か,き,く,け,こ",
+    "choice2":"が,ぎ,ぐ,げ,ご",
+    "choice3":"さ,し,す,せ,そ",
+    "choice4":"ざ,じ,ず,ぜ,ぞ",
+    "answer":2
+  },
+  {
+    "question": "Which symbols are all part of the hiragana Z row?",
+    "choice1":"か,き,く,け,こ",
+    "choice2":"が,ぎ,ぐ,げ,ご",
+    "choice3":"さ,し,す,せ,そ",
+    "choice4":"ざ,じ,ず,ぜ,ぞ",
+    "answer":2
+  },
+  {
+    "question": "Which symbols have the I sound?",
+    "choice1":"あ,い,う,え,お",
+    "choice2":"ひ,さ,し,ぶ,り",
+    "choice3":"ち,さ,な,か,こ",
+    "choice4":"き,み,に,し,ち",
+    "answer":2
+  },
+  {
+    "question": "Which symbols have the U sound?",
+    "choice1":"う,た,ま,ん,ご",
+    "choice2":"な,に,も,の,か",
+    "choice3":"う,く,す,る,む",
+    "choice4":"あ,い,う,え,お",
+    "answer":3
+  },
+  {
+    "question": "Which symbol is WA?",
+    "choice1":"れ",
+    "choice2":"わ",
+    "choice3":"は",
+    "choice4":"ね",
+    "answer": 2
+  },
+  {
+    "question": "Which symbol is hiragana A?",
+    "choice1":"あ",
+    "choice2":"い",
+    "choice3":"う",
+    "choice4":"え",
+    "answer": 1
+  },
+  {
+    "question": "Which symbol is hiragana A?",
+    "choice1":"あ",
+    "choice2":"め",
+    "choice3":"ぬ",
+    "choice4":"お",
+    "answer":1
+  },
+  {
+    "question": "How is あ written in romanji?",
+    "choice1":"a",
+    "choice2":"o",
+    "choice3":"nu",
+    "choice4":"me",
+    "answer":1
+  },
+  {
+    "question": "How is あ written in romanji?",
+    "choice1":"i",
+    "choice2":"u",
+    "choice3":"a",
+    "choice4":"e",
+    "answer":3
+  },
+  {
+    "question": "How is あ written in romanji?",
+    "choice1":"n",
+    "choice2":"a",
+    "choice3":"i",
+    "choice4":"e",
+    "answer": 2
+  },
+  {
+    "question": "Which character is not hiragana?",
+    "choice1":"し",
+    "choice2":"せ",
+    "choice3":"つ",
+    "choice4":"セ",
+    "answer": 2
+  },
+  {
+    "question": "Katakana SO is?",
+    "choice1":"ソ",
+    "choice2":"ン",
+    "choice3":"シ",
+    "choice4":"ツ",
+    "answer":1
+  },
+  {
+    "question": "Katakana あ is?",
+    "choice1":"ア",
+    "choice2":"サ",
+    "choice3":"カ",
+    "choice4":"オ",
+    "answer": 1
+  },
+  {
+    "question": "Katakana A is?",
+    "choice1":"サ",
+    "choice2":"ア",
+    "choice3":"カ",
+    "choice4":"オ",
+    "answer": 2
+  },
+  {
+    "question": "Katakana あ is?",
+    "choice1":"イ",
+    "choice2":"ア",
+    "choice3":"ウ",
+    "choice4":"エ",
+    "answer": 2
+  },
+  {
+    "question": "Which character is a Japanese katakana?",
+    "choice1":"ㄚ",
+    "choice2":"ア",
+    "choice3":"ㄣ",
+    "choice4":"ㄠ",
+    "answer": 2
+  },
+  {
+    "question": "Which character is katakana KU?",
+    "choice1":"ㄍ",
+    "choice2":"ㄎ",
+    "choice3":"く",
+    "choice4":"ク",
+    "answer": 3
+  },
+  {
+    "question": "Which character is hiragana KU?",
+    "choice1":"ク",
+    "choice2":"く",
+    "choice3":"ぐ",
+    "choice4":"グ",
+    "answer": 2
+  },
+  {
+    "question": "Which character is katakana KU?",
+    "choice1":"ク",
+    "choice2":"く",
+    "choice3":"ぐ",
+    "choice4":"グ",
+    "answer": 2
+  },
+  {
+    "question": "Which character is hiragana GU?",
+    "choice1":"ク",
+    "choice2":"く",
+    "choice3":"ぐ",
+    "choice4":"グ",
+    "answer": 2
+  },
+  {
+    "question": "Which character is katakana GU?",
+    "choice1":"ク",
+    "choice2":"く",
+    "choice3":"ぐ",
+    "choice4":"グ",
+    "answer": 2
+  },
+  {
+    "question": "Which character is katakana KU?",
+    "choice1":"ク",
+    "choice2":"ベ",
+    "choice3":"へ",
+    "choice4":"ン",
+    "answer": 1
+  },
+  {
+    "question": "Katakana い is?",
+    "choice1":"イ",
+    "choice2":"ヒ",
+    "choice3":"レ",
+    "choice4":"ナ",
+    "answer":1
+  },
+  {
+    "question": "Katakana い is?",
+    "choice1":"コ",
+    "choice2":"ラ",
+    "choice3":"イ",
+    "choice4":"ナ",
+    "answer":3
+  },
+  {
+    "question": "Katakana い is?",
+    "choice1":"イ",
+    "choice2":"ミ",
+    "choice3":"ズ",
+    "choice4":"キ",
+    "answer":1
+  },
+  {
+    "question": "Hiragana イ is?",
+    "choice1":"い",
+    "choice2":"よ",
+    "choice3":"ん",
+    "choice4":"す",
+    "answer":1
+  },
+  {
+    "question": "Hiragana イ is?",
+    "choice1":"ゆ",
+    "choice2":"ん",
+    "choice3":"い",
+    "choice4":"を",
+    "answer":3
+  },
+  {
+    "question": "Hiragana イ is?",
+    "choice1":"ち",
+    "choice2":"い",
+    "choice3":"り",
+    "choice4":"に",
+    "answer":2
+  },
+  {
+    "question": "Hiragana i is?",
+    "choice1":"に",
+    "choice2":"や",
+    "choice3":"い",
+    "choice4":"す",
+    "answer":3
+  },
+  {
+    "question": "Hiragana i is?",
+    "choice1":"い",
+    "choice2":"て",
+    "choice3":"き",
+    "choice4":"し",
+    "answer":1
+  },
+  {
+    "question": "Katakana i is?",
+    "choice1":"ノ",
+    "choice2":"イ",
+    "choice3":"キ",
+    "choice4":"リ",
+    "answer":2
+  },
+  {
+    "question": "Which doesn't belong?",
+    "choice1":"イ",
+    "choice2":"I",
+    "choice3":"A",
+    "choice4":"い",
+    "answer":3
+  },
+  {
+    "question": "Which doesn't belong?",
+    "choice1":"イ",
+    "choice2":"I",
+    "choice3":"E",
+    "choice4":"い",
+    "answer":3
+  },
+  {
+    "question": "Which doesn't belong?",
+    "choice1":"I",
+    "choice2":"イ",
+    "choice3":"い",
+    "choice4":"こ",
+    "answer":4
+  },
+  {
+    "question": "Which doesn't belong?",
+    "choice1":"イ",
+    "choice2":"I",
+    "choice3":"リ",
+    "choice4":"い",
+    "answer":3
+  },
+  {
+    "question": "Which doesn't belong?",
+    "choice1":"あ",
+    "choice2":"A",
+    "choice3":"ア",
+    "choice4":"I",
+    "answer":4
+  },
+  {
+    "question": "Which doesn't belong?",
+    "choice1":"ア",
+    "choice2":"A",
+    "choice3":"あ",
+    "choice4":"E",
+    "answer":4
+  },
+  {
+    "question": "Which doesn't belong?",
+    "choice1":"あ",
+    "choice2":"バ",
+    "choice3":"ア",
+    "choice4":"A",
+    "answer":2
+  },
+  {
+    "question": "Which doesn't belong?",
+    "choice1":"お",
+    "choice2":"A",
+    "choice3":"あ",
+    "choice4":"ア",
+    "answer":1
+  },
+  {
+    "question": "Which doesn't belong?",
+    "choice1":"ク",
+    "choice2":"KU",
+    "choice3":"く",
+    "choice4":"GU",
+    "answer":4
+  },
+  {
+    "question": "Which doesn't belong?",
+    "choice1":"ク",
+    "choice2":"ワ",
+    "choice3":"KU",
+    "choice4":"く",
+    "answer":2
+  },
+  {
+    "question": "Which doesn't belong?",
+    "choice1":"KU",
+    "choice2":"ク",
+    "choice3":"く",
+    "choice4":"り",
+    "answer":4
+  },
+  {
+    "question": "Which doesn't belong?",
+    "choice1":"く",
+    "choice2":"ㄍ",
+    "choice3":"KU",
+    "choice4":"ク",
+    "answer":2
+  },
+  {
+    "question": "Which doesn't belong?",
+    "choice1":"ぐ",
+    "choice2":"GU",
+    "choice3":"KU",
+    "choice4":"グ",
+    "answer":3
+  }
+]
