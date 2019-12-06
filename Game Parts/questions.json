@@ -93,7 +93,7 @@
     "choice2":"が,ぎ,ぐ,げ,ご",
     "choice3":"さ,し,す,せ,そ",
     "choice4":"ざ,じ,ず,ぜ,ぞ",
-    "answer":2
+    "answer":3
   },
   {
     "question": "Which symbols are all part of the hiragana Z row?",
@@ -101,7 +101,7 @@
     "choice2":"が,ぎ,ぐ,げ,ご",
     "choice3":"さ,し,す,せ,そ",
     "choice4":"ざ,じ,ず,ぜ,ぞ",
-    "answer":2
+    "answer":4
   },
   {
     "question": "Which symbols have the I sound?",
@@ -109,7 +109,7 @@
     "choice2":"ひ,さ,し,ぶ,り",
     "choice3":"ち,さ,な,か,こ",
     "choice4":"き,み,に,し,ち",
-    "answer":2
+    "answer":4
   },
   {
     "question": "Which symbols have the U sound?",
@@ -173,7 +173,7 @@
     "choice2":"せ",
     "choice3":"つ",
     "choice4":"セ",
-    "answer": 2
+    "answer": 4
   },
   {
     "question": "Katakana SO is?",
@@ -237,7 +237,7 @@
     "choice2":"く",
     "choice3":"ぐ",
     "choice4":"グ",
-    "answer": 2
+    "answer": 1
   },
   {
     "question": "Which character is hiragana GU?",
@@ -245,7 +245,7 @@
     "choice2":"く",
     "choice3":"ぐ",
     "choice4":"グ",
-    "answer": 2
+    "answer": 3
   },
   {
     "question": "Which character is katakana GU?",
@@ -253,7 +253,7 @@
     "choice2":"く",
     "choice3":"ぐ",
     "choice4":"グ",
-    "answer": 2
+    "answer": 4
   },
   {
     "question": "Which character is katakana KU?",
