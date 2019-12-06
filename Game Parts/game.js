@@ -79,7 +79,7 @@ choices.forEach(choice => {
     }
     else {
       classToApply = "correct";
-      selectedChoice.parentElement.classList.add(classToApply);
+      selectedAnswer.parentElement.classList.add(classToApply);
       classToApply = "incorrect";
     }
 
