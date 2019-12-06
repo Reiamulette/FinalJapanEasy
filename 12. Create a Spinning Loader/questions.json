@@ -1,26 +1,292 @@
-[
-  {
-    "question": "Inside which HTML element do we put the JavaScript??",
-    "choice1": "<script>",
-    "choice2": "<javascript>",
-    "choice3": "<js>",
-    "choice4": "<scripting>",
-    "answer": 1
-  },
-  {
-    "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-    "choice1": "<script href='xxx.js'>",
-    "choice2": "<script name='xxx.js'>",
-    "choice3": "<script src='xxx.js'>",
-    "choice4": "<script file='xxx.js'>",
-    "answer": 3
-  },
-  {
-    "question": " How do you write 'Hello World' in an alert box?",
-    "choice1": "msgBox('Hello World');",
-    "choice2": "alertBox('Hello World');",
-    "choice3": "msg('Hello World');",
-    "choice4": "alert('Hello World');",
-    "answer": 4
-  }
-]
+{
+	"games":[
+		{
+			"code":"1",
+			"name":"あ",
+			"description":"Hiragana Quizzes",
+      		"color":"#feec1c",
+			"quizzes":[
+				{
+					"code":"1",
+					"description":"ma is",
+					"options":[
+						{
+							"code":"1",
+							"description":"ら"
+						},
+						{
+							"code":"2",
+							"description":"は"
+						},
+						{
+							"code":"3",
+							"description":"ま"
+						},
+						{
+							"code":"4",
+							"description":"あ"
+						}
+					],
+					"quiz_option_code":"3",
+					"quiz_answer":"ま　is ma!"
+				},
+				{
+					"code":"2",
+					"description":"ば is",
+					"options":[
+						{
+							"code":"1",
+							"description":"ke"
+						},
+						{
+							"code":"2",
+							"description":"ka"
+						},
+						{
+							"code":"3",
+							"description":"he"
+						},
+						{
+							"code":"4",
+							"description":"ba"
+						}
+					],
+					"quiz_option_code":"4",
+					"quiz_answer":"ば is ba!"
+				},
+				{
+					"code":"3",
+					"description":"ku is",
+					"options":[
+						{
+							"code":"1",
+							"description":"く"
+						},
+						{
+							"code":"2",
+							"description":"そ"
+						},
+						{
+							"code":"3",
+							"description":"へ"
+						},
+						{
+							"code":"4",
+							"description":"ん"
+						}
+					],
+					"quiz_option_code":"1",
+					"quiz_answer":"ku is く!"
+				},
+				{
+					"code":"4",
+					"description":"よ is",
+					"options":[
+						{
+							"code":"1",
+							"description":"ho"
+						},
+						{
+							"code":"2",
+							"description":"yo"
+						},
+						{
+							"code":"3",
+							"description":"ya"
+						},
+						{
+							"code":"4",
+							"description":"ha"
+						}
+					],
+					"quiz_option_code":"2",
+					"quiz_answer":"よ is yo!"
+				},
+				{
+					"code":"5",
+					"description":"pa is",
+					"options":[
+						{
+							"code":"1",
+							"description":"は"
+						},
+						{
+							"code":"2",
+							"description":"ば"
+						},
+						{
+							"code":"3",
+							"description":"ぱ"
+						},
+						{
+							"code":"4",
+							"description":"ひ"
+						}
+					],
+					"quiz_option_code":"3",
+					"quiz_answer":"pa is ぱ!"
+				}
+			]
+		},
+		{
+			"code":"2",
+			"name":"ア",
+			"description":"Katanakana Quizzes",
+      		"color":"#1bd0fd",
+			"quizzes":[
+				{
+					"code":"1",
+					"description":"so is",
+					"options":[
+						{
+							"code":"1",
+							"description":"ソ"
+						},
+						{
+							"code":"2",
+							"description":"ン"
+						},
+						{
+							"code":"3",
+							"description":"ツ"
+						},
+						{
+							"code":"4",
+							"description":"シ"
+						}
+					],
+					"quiz_option_code":"1",
+					"quiz_answer":"so is ソ"
+				},
+				{
+					"code":"2",
+					"description":"ナ is",
+					"options":[
+						{
+							"code":"1",
+							"description":"ta"
+						},
+						{
+							"code":"2",
+							"description":"na"
+						},
+						{
+							"code":"3",
+							"description":"ne"
+						},
+						{
+							"code":"4",
+							"description":"te"
+						}
+					],
+					"quiz_option_code":"2",
+					"quiz_answer":"ナ is na!"
+				},
+				{
+					"code":"3",
+					"description":"fu is",
+					"options":[
+						{
+							"code":"1",
+							"description":"フ"
+						},
+						{
+							"code":"2",
+							"description":"ナ"
+						},
+						{
+							"code":"3",
+							"description":"ム"
+						},
+						{
+							"code":"4",
+							"description":"タ"
+						}
+					],
+					"quiz_option_code":"1",
+					"quiz_answer":"fu is フ"
+				}
+			]
+		},
+		{
+			"code":"3",
+			"name":"字",
+			"description":"Kanji Quizzes",
+      		"color":"#ff98d5",
+			"quizzes":[
+				{
+					"code":"1",
+					"description":"Which means 'fire'?",
+					"options":[
+						{
+							"code":"1",
+							"description":"水"
+						},
+						{
+							"code":"2",
+							"description":"火"
+						},
+						{
+							"code":"3",
+							"description":"木"
+						},
+						{
+							"code":"4",
+							"description":"月"
+						}
+					],
+					"quiz_option_code":"2",
+					"quiz_answer":"火 is fire (also used for tuesday)!"
+				},
+				{
+					"code":"2",
+					"description":"Right is",
+					"options":[
+						{
+							"code":"1",
+							"description":"上"
+						},
+						{
+							"code":"2",
+							"description":"下"
+						},
+						{
+							"code":"3",
+							"description":"右"
+						},
+						{
+							"code":"4",
+							"description":"左"
+						}
+					],
+					"quiz_option_code":"3",
+					"quiz_answer":"Right is 右!"
+				},
+				{
+					"code":"3",
+					"description":"Which 'shi' is a number?",
+					"options":[
+						{
+							"code":"1",
+							"description":"四"
+						},
+						{
+							"code":"2",
+							"description":"市"
+						},
+						{
+							"code":"3",
+							"description":"死"
+						},
+						{
+							"code":"4",
+							"description":"子"
+						}
+					],
+					"quiz_option_code":"1",
+					"quiz_answer":"四 is the number four!"
+				}
+			]
+		}
+	]
+}
