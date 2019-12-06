@@ -77,11 +77,6 @@ choices.forEach(choice => {
     if (classToApply === "correct") {
       incrementScore(CORRECT_BONUS);
     }
-    else {
-      classToApply = "correct";
-      selectedAnswer.parentElement.classList.add(classToApply);
-      classToApply = "incorrect";
-    }
 
     selectedChoice.parentElement.classList.add(classToApply);
 
