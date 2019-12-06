@@ -26,6 +26,6 @@ function gray(imgObj) {
     return canvas.toDataURL();
 }
 
-if (finalScore != 100){
+if (finalScore <= 100){
     perfect.src = gray(perfect);
 }
