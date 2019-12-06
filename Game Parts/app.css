@@ -19,7 +19,7 @@ h4 {
 }
 
 h1 {
-  font-size: 5.4rem;
+  font-size: 10rem;
   color: #56e1eb;
   margin-bottom: 5rem;
 }
@@ -30,8 +30,8 @@ h1 > span {
 }
 
 h2 {
-  font-size: 5.2rem;
-  margin-bottom: 4rem;
+  font-size: 5 rem;
+  margin-bottom: 3rem;
   font-weight: 700;
 }
 
@@ -81,9 +81,9 @@ h3 {
 
 /* BUTTONS */
 .btn {
-  font-size: 1.8rem;
+  font-size: 4rem;
   padding: 1rem 0;
-  width: 20rem;
+  width: 30rem;
   text-align: center;
   border: 0.1rem solid #56e1eb;
   margin-bottom: 1rem;
