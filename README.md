@@ -10,7 +10,7 @@ Main Ask:
 
 ** Engaging Game**
 
-Measure how long user spend on app, and app satisfaction
+Measure how long user spend on app, and app satisfaction.
 
 PowerPoint Presentation:
 https://docs.google.com/presentation/d/1tZjP91ReTJbSzElgRSUUj1mgqWpeABJsM8aaNDr3-Vk/edit?usp=sharing
