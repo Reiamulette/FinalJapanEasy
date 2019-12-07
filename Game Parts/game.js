@@ -77,8 +77,10 @@ choices.forEach(choice => {
     if (classToApply === "correct") {
       incrementScore(CORRECT_BONUS);
     }
+   
 
     selectedChoice.parentElement.classList.add(classToApply);
+
 
     setTimeout(() => {
       selectedChoice.parentElement.classList.remove(classToApply);

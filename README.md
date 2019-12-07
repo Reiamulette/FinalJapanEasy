@@ -2,8 +2,9 @@
 
 Team Members: Amanda Gomes, Bin Gui, Akihira Maher, Rachel Yao
 
-JapanEasy is an application that helps the user learn Japanese in a simple yet engaging way. There will be an achievement system where user can get medals beased on the number of levels they complete. 
+JapanEasy is a web application aids Japanese character recognition, as the 2 alphabet systems of Japanese are the basic building blocks of being able to read and write Japanese. The game is meant to be engaging enough to continue, yet also short enough for a train rides of all distances.
 
+Main Ask:
 - Short multiple choice games
 - Quick rounds
 
@@ -11,11 +12,6 @@ JapanEasy is an application that helps the user learn Japanese in a simple yet e
 
 Measure how long user spend on app, and app satisfaction
 
-TASKS
-- Start up Screen - AG
-- Tutorial pop up - RY
-- Create quizzes (levels) using if statements and dictionary (object) - AM / RY
-    - create point system for exp - AG
-- Create badges for achievements + stamps? -AG
-- Levelling up feature - AG
-- Track how long person is on app - BG
+PowerPoint Presentation:
+https://docs.google.com/presentation/d/1tZjP91ReTJbSzElgRSUUj1mgqWpeABJsM8aaNDr3-Vk/edit?usp=sharing
+
